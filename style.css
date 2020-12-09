@@ -37,6 +37,13 @@ textarea {
     font-family: inherit;
 }
 
+img{
+    margin: 20px;
+    padding-left: 10px;
+    max-width:200px;
+    max-height:200px;
+}
+
 button {
     background-color: var(--primary);
     border: none;
@@ -47,7 +54,7 @@ button {
 }
 
 
-#translate-output {
+#output {
     box-sizing: border-box;
     width: 100%;
     min-height: 10vh;
@@ -63,9 +70,11 @@ footer {
     padding: 1rem;
     background-color: var(--primary);
     text-align: center;
+    font-size: large;
 }
 
 footer p {
     max-width: var(--width-break);
     margin: auto;
+    font-size: 15px;
 }
